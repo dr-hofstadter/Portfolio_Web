@@ -85,9 +85,9 @@ p, li, span, label, input, textarea{
     border: 1px solid var(--borderColor);
     border-radius: 10px;
 
-    box-shadow: -14px -12px 38px 7px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -14px -12px 38px 7px rgba(0,0,0,0.75);
-    -moz-box-shadow: -14px -12px 38px 7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -132,6 +132,10 @@ p, li, span, label, input, textarea{
     width: 15px;
     border-radius: 50%;
     margin: 5px;
+
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 }
 
 #dot1{
@@ -162,6 +166,10 @@ p, li, span, label, input, textarea{
     border: 2px solid var(--borderColor);
     display: block;
     margin: 0 auto;
+
+    -webkit-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
 }
 
 #theme-option-wrapper{
@@ -178,9 +186,9 @@ p, li, span, label, input, textarea{
     cursor: pointer;
     border: 2px solid var(--themeDotBorder);
 
-    box-shadow: -14px -12px 38px 7px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -14px -12px 38px 7px rgba(0,0,0,0.75);
-    -moz-box-shadow: -14px -12px 38px 7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
 }
 
 
@@ -210,8 +218,8 @@ p, li, span, label, input, textarea{
     background-color: var(--previewShadow);
     width: 300px;
     height: 180px;
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 #preview{
@@ -251,6 +259,10 @@ p, li, span, label, input, textarea{
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
+
+    -webkit-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
 }
 
 .about-wrapper{
@@ -266,9 +278,13 @@ p, li, span, label, input, textarea{
 }
 
 #social-pp{
-    width: 90%;
+    width: 100%;
     justify-content: center;
     align-items: center;
+
+    -webkit-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
 }
 
 .post-wrapper{
@@ -290,9 +306,9 @@ p, li, span, label, input, textarea{
 .post{
     border: 1px solid var(--borderColor);
 
-    box-shadow: -14px -12px 38px 7px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -14px -12px 38px 7px rgba(0,0,0,0.75);
-    -moz-box-shadow: -14px -12px 38px 7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
 }
 
 .post-preview{
@@ -328,6 +344,10 @@ p, li, span, label, input, textarea{
     border-radius: 10px;
     background-color: var(--mainColor);
     margin-bottom: 50px;
+
+    -webkit-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
+    box-shadow: -6px -3px 10px -1px rgba(0,0,0,0.75);
 
 }
 
